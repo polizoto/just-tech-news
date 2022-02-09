@@ -47,6 +47,12 @@ router.post('/', (req, res) => {
     });
 });
 
+router.post('/login', (req, res) => {
+
+  // Query operation
+
+})
+
 router.put('/:id', (req, res) => {
   // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
 
